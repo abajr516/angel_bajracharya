@@ -1,6 +1,7 @@
 /* Default settings for smaller devices aka phones */
 body {
-    background-image: url('../img/1.jpeg');
+    background-image: url('../img/1-mobiles.jpeg');
+    background-color: #07060b;
     background-size: cover;
     background-position: center;
     text-align: center;
