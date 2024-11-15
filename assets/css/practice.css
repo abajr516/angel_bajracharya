@@ -1,0 +1,33 @@
+/* Default settings for smaller devices aka phones */
+body {
+    background-image: url('../img/1-mobile.jpeg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+/*Base Colors: Cinder(#07060b), Twine(#c69a68)*/
+.glowing-text1 {
+    font-size: 4rem;  /* Adjust text size */
+    color: #fff;  /* White text for high contrast */
+    text-shadow: 
+        0 0 5px #765c3e,   /* Subtle golden yellow glow */
+        0 0 6px #8a6b48,  /* Softer golden glow */
+        0 0 7px #9e7b53,  /* Soft halo effect */
+        0 0 8px #fae3c8,  /* Light yellow glow for depth */
+        0 0 9px #fcf3eb,  /* Delicate light yellow halo */
+        0 0 30px black;
+}
+
+/*Base Colors: Woodsmoke(#0d1111), Mongoose(#b5a17e)*/
+.glowing-text4 {
+    font-size: 3rem;  /* Adjust text size */
+    color: #fff;  /* White text for high contrast */
+    text-shadow: 
+        0 0 5px #6c604b,   /* Subtle golden yellow glow */
+        0 0 6px #7e7058,  /* Softer golden glow */
+        0 0 7px #908064,  /* Soft halo effect */
+        0 0 8px #ffeed1,  /* Light yellow glow for depth */
+        0 0 9px #fff8ed,  /* Delicate light yellow halo */
+        0 0 30px black;
+}
