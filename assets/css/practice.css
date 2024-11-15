@@ -1,9 +1,17 @@
 /* Default settings for smaller devices aka phones */
 body {
-    background-image: url('../img/1-mobile.jpeg');
+    background-image: url('../img/1.jpeg');
     background-size: cover;
     background-position: center;
     text-align: center;
+}
+/* Media Query for Tablets (768px to 1023px) */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    body {
+        background-image: url('../img/1.jpeg');  /* Use a medium version of the image for tablets */
+        background-size: cover;  /* Make sure the image still covers the viewport */
+        background-position: center center;  /* Adjust position for tablets */
+    }
 }
 
 /*Base Colors: Cinder(#07060b), Twine(#c69a68)*/
